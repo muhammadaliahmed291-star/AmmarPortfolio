@@ -1,0 +1,8 @@
+
+{
+  "name": "Ammar Ali - UI/UX Portfolio",
+  "description": "A world-class, single-page portfolio for Ammar Ali, a UI/UX Designer, featuring project showcases, dark mode, and an AI-powered design assistant.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
