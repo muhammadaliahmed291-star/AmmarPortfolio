@@ -80,7 +80,7 @@ const App: React.FC = () => {
 
       {/* Floating WhatsApp Button */}
       <a 
-        href="https://wa.me/923001234567" 
+        href="https://wa.me/923185146578" 
         target="_blank" 
         rel="noopener noreferrer"
         className="fixed bottom-6 left-6 z-[100] w-16 h-16 bg-[#25D366] text-white rounded-full flex items-center justify-center shadow-2xl hover:scale-110 active:scale-95 transition-all"
@@ -95,7 +95,7 @@ const App: React.FC = () => {
         </span>
       </a>
 
-      <AIAssistant />
+      {/* <AIAssistant /> */}
     </div>
   );
 };

@@ -23,17 +23,17 @@ export const PROJECTS: Project[] = [
   },
   {
     id: '3',
-    title: 'Lumina Smart Travel',
+    title: 'Friends Loan Manger',
     category: 'E-commerce App',
-    description: 'A travel app interface that helps users plan trips and see personalized recommendations easily.',
+    description: 'Friends loan manager app interface that helps users plan trips and see personalized recommendations easily.',
     image: loanManager, // local image
     tags: ['App Design', 'UX/UI', 'Mobile'],
     figmaLink: 'https://www.figma.com/proto/N84WglRYfOGc4i5W3ibFK8/E-commerce-APP?node-id=3-26&p=f&t=wosNQgTznBJvRpoS-1'
   },
   {
     id: '4',
-    title: 'PureFlow Wellness',
-    category: 'Health Tech',
+    title: 'Online Shopping app',
+    category: 'E-commerce',
     description: 'A wellness app interface with a clean design to track health activities and stress levels.',
     image: e_comerence, // local image
     tags: ['UI Design', 'Health App', 'User Friendly'],
