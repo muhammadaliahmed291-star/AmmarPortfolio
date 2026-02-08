@@ -32,7 +32,7 @@ export const About: React.FC = () => {
               The Visionary
             </div>
             <h3 className="text-5xl md:text-8xl font-black tracking-tighter leading-[0.85]">
-              Ammar Ali. <br />
+              Ammar Ali. chohan <br />
               <span className="text-slate-300 dark:text-slate-700">Digital Architect</span>
             </h3>
             <div className="flex flex-col md:flex-row gap-12 items-center">
