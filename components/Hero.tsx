@@ -42,8 +42,7 @@ export const Hero: React.FC = () => {
           </h1>
 
           <p className="text-lg md:text-xl text-slate-500 dark:text-slate-400 max-w-xl font-medium leading-relaxed">
-            I’m Ammar Ali, a UI/UX Designer specialized in creating clean, 
-            intuitive, and highly functional digital products for humans.
+          Creative and detail-oriented UI/UX designer with a passion for building simple and intuitive digital experiences. Skilled in Figma, prototyping, and user-centered design. Eager to learn and contribute to designing products that delight users and solve real problems.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4">
