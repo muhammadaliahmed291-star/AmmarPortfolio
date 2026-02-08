@@ -1,6 +1,7 @@
 
 import React from 'react';
 import { Project, Skill } from './types';
+import { e_comerence,digitalAgency,loanManager } from './utils/images';
 
 export const PROJECTS: Project[] = [
   {
