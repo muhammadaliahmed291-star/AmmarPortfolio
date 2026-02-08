@@ -1,4 +1,3 @@
-
 import React, { useRef, useState } from 'react';
 import { PROJECTS } from '../constants';
 
@@ -24,6 +23,7 @@ export const Work: React.FC = () => {
 
   return (
     <section id="work" className="py-32 overflow-hidden bg-white dark:bg-[#0A0A0B]">
+      {/* Header */}
       <div className="max-w-7xl mx-auto px-6 mb-16 flex flex-col md:flex-row justify-between items-end gap-8">
         <div>
           <div className="inline-block px-4 py-1.5 bg-violet-600/10 text-violet-600 rounded-full text-[10px] font-black uppercase tracking-[0.3em] mb-4">
@@ -55,6 +55,7 @@ export const Work: React.FC = () => {
         </div>
       </div>
 
+      {/* Slider */}
       <div 
         ref={scrollRef}
         onScroll={handleScroll}
@@ -71,26 +72,21 @@ export const Work: React.FC = () => {
                 alt={project.title}
                 className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105"
               />
+              {/* Overlay with text & button */}
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-all duration-500 flex flex-col justify-end p-12">
                 <div className="translate-y-8 group-hover:translate-y-0 transition-all duration-500">
                   <p className="text-white/60 text-xs font-bold uppercase tracking-[0.3em] mb-4">{project.tags.join(' • ')}</p>
-                  <button className="px-10 py-4 bg-white text-black font-black rounded-2xl uppercase tracking-widest text-xs hover:bg-violet-600 hover:text-white transition-all shadow-xl">
+                  <h3 className="text-white text-2xl font-black mb-4">{project.title}</h3>
+                  <p className="text-white/80 mb-4">{project.description}</p>
+                  <a 
+                    href={project.figmaLink} 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="px-10 py-4 bg-white text-black font-black rounded-2xl uppercase tracking-widest text-xs hover:bg-violet-600 hover:text-white transition-all shadow-xl inline-block"
+                  >
                     View Case Study
-                  </button>
+                  </a>
                 </div>
-              </div>
-            </div>
-            <div className="flex flex-col md:flex-row justify-between items-start gap-6 px-4">
-              <div className="max-w-xl">
-                <h4 className="text-3xl font-black mb-3 group-hover:text-violet-600 transition-colors">{project.title}</h4>
-                <p className="text-slate-500 dark:text-slate-400 font-medium leading-relaxed">{project.description}</p>
-              </div>
-              <div className="flex flex-wrap gap-2">
-                {project.tags.slice(0, 2).map(tag => (
-                  <span key={tag} className="text-[10px] font-black uppercase tracking-[0.2em] px-4 py-2 bg-violet-600/10 text-violet-600 rounded-xl whitespace-nowrap">
-                    {tag}
-                  </span>
-                ))}
               </div>
             </div>
           </div>
