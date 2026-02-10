@@ -1,16 +1,16 @@
 import { Project, Skill } from './types';
-import { e_comerence, digitalAgency, loanManager } from './utils/images';
+import { e_comerence, digitalAgency, loanManager, RideSharing } from './utils/images';
 
 
 export const PROJECTS: Project[] = [
   {
     id: '1',
-    title: 'Nexus Fintech Ecosystem',
+    title: 'Ride Sharing App',
     category: 'Mobile & Web Design',
     description: 'A clean and modern banking interface that helps users manage multi-currency transactions easily.',
-    image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=1200', // online URL
+    image: RideSharing, // local image
     tags: ['UX Design', 'Figma', 'Web & Mobile'],
-    figmaLink: 'https://www.figma.com/proto/N84WglRYfOGc4i5W3ibFK8/E-commerce-APP?node-id=3-26&p=f&t=wosNQgTznBJvRpoS-1'
+    figmaLink: 'https://www.figma.com/design/xqZAO333o6aEWLtieT8rlH/Ride-Sharing-App?node-id=109-2&t=AceTzMwGVNhGbrUw-1'
   },
   {
     id: '2',
