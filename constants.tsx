@@ -7,10 +7,10 @@ export const PROJECTS: Project[] = [
     id: '1',
     title: 'Ride Sharing App',
     category: 'Mobile & Web Design',
-    description: 'A clean and modern banking interface that helps users manage multi-currency transactions easily.',
+    description: 'A Ride Sharing App is a mobile application that allows users to book rides easily from one location to another',
     image: RideSharing, // local image
     tags: ['UX Design', 'Figma', 'Web & Mobile'],
-    figmaLink: 'https://www.figma.com/design/xqZAO333o6aEWLtieT8rlH/Ride-Sharing-App?node-id=109-2&t=AceTzMwGVNhGbrUw-1'
+    figmaLink: 'https://www.figma.com/proto/xqZAO333o6aEWLtieT8rlH/Ride-Sharing-App?node-id=109-2&t=haSPPfMZN2o1WKtl-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=109%3A2'
   },
   {
     id: '2',
