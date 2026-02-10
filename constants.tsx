@@ -1,16 +1,16 @@
 import { Project, Skill } from './types';
-import { e_comerence, digitalAgency, loanManager, RideSharing } from './utils/images';
+import { e_comerence, digitalAgency, loanManager, ridesharing } from './utils/images';
 
 
 export const PROJECTS: Project[] = [
   {
     id: '1',
-    title: 'Ride Sharing App',
+    title: 'Ride Sharing ',
     category: 'Mobile & Web Design',
-    description: 'A Ride Sharing App is a mobile application that allows users to book rides easily from one location to another',
-    image: RideSharing, // local image
+    description: 'A Ride Sharing App is a mobile application that allows users to book rides easily from one location to another.',
+    image: ridesharing, // local image
     tags: ['UX Design', 'Figma', 'Web & Mobile'],
-    figmaLink: 'https://www.figma.com/proto/xqZAO333o6aEWLtieT8rlH/Ride-Sharing-App?node-id=109-2&t=haSPPfMZN2o1WKtl-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=109%3A2'
+    figmaLink: 'https://www.figma.com/proto/xqZAO333o6aEWLtieT8rlH/Ride-Sharing-App?node-id=109-2&t=QuI9CGWuh0A1gPGI-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=109%3A2'
   },
   {
     id: '2',
@@ -28,7 +28,7 @@ export const PROJECTS: Project[] = [
     description: 'Friends loan manager app interface that helps users plan trips and see personalized recommendations easily.',
     image: loanManager, // local image
     tags: ['App Design', 'UX/UI', 'Mobile'],
-    figmaLink: 'https://www.figma.com/design/s7qqJx0PqCAermbFuuvpJ6/FriendsLoanManager?node-id=0-1&t=JGMc5tAQsVF79NtB-1'
+    figmaLink: 'https://www.figma.com/proto/N84WglRYfOGc4i5W3ibFK8/E-commerce-APP?node-id=3-26&p=f&t=wosNQgTznBJvRpoS-1'
   },
   {
     id: '4',
@@ -46,7 +46,7 @@ export const PROJECTS: Project[] = [
     description: 'A portfolio site design to showcase agency projects, case studies, and services with clarity.',
     image: digitalAgency, // local image
     tags: ['Portfolio', 'Web Design', 'UI/UX'],
-    figmaLink: 'https://www.figma.com/design/9IIpnH5tKB3aN2qGSSMrp1/Digital-Agency?node-id=67-4&t=m39r8lOx5w8lZDmh-1'
+    figmaLink: 'https://www.figma.com/proto/N84WglRYfOGc4i5W3ibFK8/E-commerce-APP?node-id=3-26&p=f&t=wosNQgTznBJvRpoS-1'
   }
 ];
 
