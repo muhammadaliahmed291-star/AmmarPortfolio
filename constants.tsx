@@ -28,7 +28,7 @@ export const PROJECTS: Project[] = [
     description: 'Friends loan manager app interface that helps users plan trips and see personalized recommendations easily.',
     image: loanManager, // local image
     tags: ['App Design', 'UX/UI', 'Mobile'],
-    figmaLink: 'https://www.figma.com/proto/N84WglRYfOGc4i5W3ibFK8/E-commerce-APP?node-id=3-26&p=f&t=wosNQgTznBJvRpoS-1'
+    figmaLink: 'https://www.figma.com/design/9IIpnH5tKB3aN2qGSSMrp1/Digital-Agency?node-id=67-4&t=m39r8lOx5w8lZDmh-1'
   },
   {
     id: '4',
