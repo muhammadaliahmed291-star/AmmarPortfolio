@@ -10,7 +10,7 @@ export const PROJECTS: Project[] = [
     description: 'A Ride Sharing App is a mobile application that allows users to book rides easily from one location to another.',
     image: ridesharing, // local image
     tags: ['UX Design', 'Figma', 'Web & Mobile'],
-    figmaLink: 'https://www.figma.com/proto/xqZAO333o6aEWLtieT8rlH/Ride-Sharing-App?node-id=109-2&t=QuI9CGWuh0A1gPGI-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=109%3A2'
+    figmaLink:'https://www.figma.com/proto/xqZAO333o6aEWLtieT8rlH/Ride-Sharing-App?node-id=109-2&t=QuI9CGWuh0A1gPGI-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=109%3A2'
   },
   {
     id: '2',
@@ -46,7 +46,7 @@ export const PROJECTS: Project[] = [
     description: 'A portfolio site design to showcase agency projects, case studies, and services with clarity.',
     image: digitalAgency, // local image
     tags: ['Portfolio', 'Web Design', 'UI/UX'],
-    figmaLink: 'https://www.figma.com/proto/N84WglRYfOGc4i5W3ibFK8/E-commerce-APP?node-id=3-26&p=f&t=wosNQgTznBJvRpoS-1'
+    figmaLink:'https://www.figma.com/proto/N84WglRYfOGc4i5W3ibFK8/E-commerce-APP?node-id=3-26&p=f&t=wosNQgTznBJvRpoS-1'
   }
 ];
 
