@@ -13,6 +13,7 @@ git commit -m "Images Settled"
 git push
 git config --global user.name
 git config --global user.email
+git pull
 
  
 git config --global user.name "your name"

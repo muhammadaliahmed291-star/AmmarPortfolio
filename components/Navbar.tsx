@@ -62,7 +62,7 @@ export const Navbar: React.FC<NavbarProps> = ({ theme, toggleTheme }) => {
           <div className="w-10 h-10 bg-violet-600 rounded-2xl flex items-center justify-center text-white text-lg group-hover:rotate-12 transition-transform shadow-lg shadow-violet-600/20">
             A
           </div>
-          <span className="hidden sm:inline font-bold">AMMAR ALI</span>
+          <span className="inline font-bold">AMMAR ALI</span>
         </a>
 
         <nav className="hidden lg:flex items-center gap-1 bg-black/5 dark:bg-white/5 p-1.5 rounded-2xl border border-black/5 dark:border-white/5">
