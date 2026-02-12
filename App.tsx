@@ -64,7 +64,7 @@ const App: React.FC = () => {
       <footer className="py-20 px-6 max-w-7xl mx-auto border-t border-black/5 dark:border-white/5">
         <div className="flex flex-col md:flex-row justify-between items-center gap-10">
           <div className="text-center md:text-left">
-            <h4 className="text-2xl font-black tracking-tighter mb-2">AMMAR ALI.</h4>
+            <h4 className="text-2xl font-black tracking-tighter mb-2">Ali Raza.</h4>
             <p className="text-slate-500 text-sm font-medium">Built with passion & precision.</p>
           </div>
           <div className="flex gap-10 text-xs font-black uppercase tracking-widest">
