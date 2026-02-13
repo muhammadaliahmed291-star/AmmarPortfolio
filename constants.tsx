@@ -1,5 +1,5 @@
 import { Project, Skill } from './types';
-import { e_comerence, digitalAgency, loanManager, ridesharing } from './utils/images';
+import { e_comerence, digitalAgency, loanManager } from './utils/images';
 
 
 export const PROJECTS: Project[] = [
@@ -8,7 +8,7 @@ export const PROJECTS: Project[] = [
     title: 'Ride Sharing ',
     category: 'Mobile & Web Design',
     description: 'A Ride Sharing App is a mobile application that allows users to book rides easily from one location to another.',
-    image: ridesharing, // local image
+    image: digitalAgency, // local image
     tags: ['UX Design', 'Figma', 'Web & Mobile'],
     figmaLink: 'https://www.figma.com/proto/xqZAO333o6aEWLtieT8rlH/Ride-Sharing-App?node-id=109-2&t=QuI9CGWuh0A1gPGI-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=109%3A2'
   },
