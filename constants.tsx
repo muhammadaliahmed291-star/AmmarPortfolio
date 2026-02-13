@@ -5,7 +5,7 @@ import { e_comerence, digitalAgency, loanManager,ridesharing } from './utils/ima
 export const PROJECTS: Project[] = [
   {
     id: '1',
-    title: 'Ride Sharing ',
+    title: 'Ride Sharing APP ',
     category: 'Mobile & Web Design',
     description: 'A Ride Sharing App is a mobile application that allows users to book rides easily from one location to another.',
     image: ridesharing, // local image
