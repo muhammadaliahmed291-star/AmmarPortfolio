@@ -65,6 +65,6 @@ export const SKILLS: Skill[] = [
 export const NAV_LINKS = [
   { label: 'Home', href: 'home' },
   { label: 'Work', href: 'work' },
-  { label: 'About', href: 'about' },
-  { label: 'Contact', href: 'contact' }
+  { label: 'About Us', href: 'about' },
+  { label: 'Contact Us', href: 'contact' }
 ];
