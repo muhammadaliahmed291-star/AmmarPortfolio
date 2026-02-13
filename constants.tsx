@@ -14,8 +14,8 @@ export const PROJECTS: Project[] = [
   },
   {
     id: '2',
-    title: 'EcoSphere Analytics',
-    category: 'SaaS Platform',
+    title: 'MAP APP',
+    category: 'MAP Platform',
     description: 'A dashboard design to visualize environmental data and carbon emissions trends clearly.',
     image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=1200', // online URL
     tags: ['Data Visualization', 'Web App', 'UI Design'],
