@@ -63,7 +63,7 @@ export const Hero: React.FC = () => {
           </div>
         </div>
 
-        <div className="relative hidden lg:block">
+        <div className="relative">
           <div className="w-[500px] h-[500px] bg-gradient-to-tr from-violet-600/20 to-fuchsia-600/20 rounded-full blur-3xl absolute -top-20 -right-20 animate-pulse"></div>
           <div className="relative z-10 w-full aspect-square bg-[#1A1A1E] dark:bg-[#2A2A2E] rounded-[3rem] p-4 card-shadow rotate-3 group hover:rotate-0 transition-transform duration-700">
             <div className="w-full h-full bg-[#3A3A3E] rounded-[2.5rem] overflow-hidden relative">
