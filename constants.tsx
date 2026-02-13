@@ -14,7 +14,7 @@ export const PROJECTS: Project[] = [
   },
   {
     id: '2',
-    title: 'MAP APP',
+    title: 'EcoSphere Analytics',
     category: 'SaaS Platform',
     description: 'A dashboard design to visualize environmental data and carbon emissions trends clearly.',
     image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=1200', // online URL
@@ -29,7 +29,7 @@ export const PROJECTS: Project[] = [
   image: loanManager, // local image
   tags: ['App Design', 'UX/UI', 'Mobile'],
   figmaLink: 'https://www.figma.com/proto/N84WglRYfOGc4i5W3ibFK8/E-commerce-APP?node-id=3-26&p=f&t=wosNQgTznBJvRpoS-1'
-}
+},
   {
     id: '4',
     title: 'Online Shopping app',
