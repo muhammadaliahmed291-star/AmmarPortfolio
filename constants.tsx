@@ -1,5 +1,5 @@
 import { Project, Skill } from './types';
-import { e_comerence, digitalAgency, loanManager, } from './utils/images';
+import { e_comerence, digitalAgency, loanManager, rideSharing, } from './utils/images';
 
 
 export const PROJECTS: Project[] = [
@@ -9,7 +9,7 @@ export const PROJECTS: Project[] = [
     title: 'MAP APP INTERACTION',
     category: 'MAP APP',
     description: 'A dashboard design to visualize environmental data and carbon emissions trends clearly.',
-    image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=1200', // online URL
+    image: rideSharing, // local image 
     tags: ['Data Visualization', 'Web App', 'UI Design'],
     figmaLink: 'https://www.figma.com/proto/N84WglRYfOGc4i5W3ibFK8/E-commerce-APP?node-id=3-26&p=f&t=wosNQgTznBJvRpoS-1'
   },
