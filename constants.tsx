@@ -6,8 +6,8 @@ export const PROJECTS: Project[] = [
   
   {
     id: '2',
-    title: 'MAP APP INTERACTION',
-    category: 'MAP APP',
+    title: 'Ride Sharing',
+    category: 'Ride Sharing App',
     description: 'A dashboard design to visualize environmental data and carbon emissions trends clearly.',
     image: rideSharing, // local image 
     tags: ['Data Visualization', 'Web App', 'UI Design'],
