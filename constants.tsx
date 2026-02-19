@@ -5,16 +5,16 @@ import { e_comerence, digitalAgency, loanManager, rideSharing, } from './utils/i
 export const PROJECTS: Project[] = [
   
   {
-    id: '2',
+    id: '1',
     title: 'Ride Sharing',
     category: 'Ride Sharing App',
-    description: 'A dashboard design to visualize environmental data and carbon emissions trends clearly.',
+    description: 'Ride Sharing App is a user-friendly mobile application designed to help people book rides easily and travel safely to their destination.',
     image: rideSharing, // local image 
     tags: ['Data Visualization', 'Web App', 'UI Design'],
-    figmaLink: 'https://www.figma.com/proto/N84WglRYfOGc4i5W3ibFK8/E-commerce-APP?node-id=3-26&p=f&t=wosNQgTznBJvRpoS-1'
+    figmaLink: 'https://www.figma.com/design/xqZAO333o6aEWLtieT8rlH/Ride-Sharing-App?node-id=0-1&t=Ls1o2MSydT2XKGRn-1'
   },
   {
-    id: '3',
+    id: '2',
   title: 'Friends Loan Manager',
   category: 'E-commerce App',
   description: 'Friends loan manager app interface that helps users plan trips and see personalized recommendations easily.',
@@ -23,7 +23,7 @@ export const PROJECTS: Project[] = [
   figmaLink: 'https://www.figma.com/proto/N84WglRYfOGc4i5W3ibFK8/E-commerce-APP?node-id=3-26&p=f&t=wosNQgTznBJvRpoS-1'
 },
   {
-    id: '4',
+    id: '3',
     title: 'Online Shopping app',
     category: 'E-commerce',
     description: 'A wellness app interface with a clean design to track health activities and stress levels.',
@@ -32,7 +32,7 @@ export const PROJECTS: Project[] = [
     figmaLink:'https://www.figma.com/proto/N84WglRYfOGc4i5W3ibFK8/E-commerce-APP?node-id=3-26&p=f&t=wosNQgTznBJvRpoS-1'
   },
   {
-    id: '5',
+    id: '4',
     title: 'Digital Agency Portal',
     category: 'Web & Mobile',
     description: 'A portfolio site design to showcase agency projects, case studies, and services with clarity.',
