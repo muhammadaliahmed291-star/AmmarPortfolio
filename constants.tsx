@@ -1,5 +1,5 @@
 import { Project, Skill } from './types';
-import { e_comerence, digitalAgency, loanManager, rideSharing, } from './utils/images';
+import { e_comerence, digitalAgency, loanManager, rideSharing, mapapp, } from './utils/images';
 
 
 export const PROJECTS: Project[] = [
@@ -39,6 +39,15 @@ export const PROJECTS: Project[] = [
     image: digitalAgency, // local image
     tags: ['Portfolio', 'Web Design', 'UI/UX'],
     figmaLink: 'https://www.figma.com/proto/N84WglRYfOGc4i5W3ibFK8/E-commerce-APP?node-id=3-26&p=f&t=wosNQgTznBJvRpoS-1'
+  },
+  {
+    id: '5',
+    title: 'MAP APP INTERACTION',
+    category: 'MAP APP',
+    description: 'Map App Interaction allows users to add their current location and search for any desired place easily. It provides a smooth experience to find nearby locations, addresses, and destinations in real time.',
+    image: mapapp, // local image
+    tags: ['Portfolio', 'Web Design', 'UI/UX'],
+    figmaLink: 'https://www.figma.com/proto/MBRQyZpV2tACoLRQSuzqwS/MAP-Interaction-Design?node-id=5-13&p=f&t=rlp9kYtIlG6C2DEs-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=5%3A13'
   }
 ];
 
