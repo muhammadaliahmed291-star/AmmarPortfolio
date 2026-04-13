@@ -11,7 +11,7 @@ export const PROJECTS: Project[] = [
     description: 'Ride Sharing App is a user-friendly mobile application designed to help people book rides easily and travel safely to their destination.',
     image: rideSharing, // local image 
     tags: ['Data Visualization', 'Web App', 'UI Design'],
-    figmaLink: 'https://www.figma.com/design/xqZAO333o6aEWLtieT8rlH/Ride-Sharing-App?node-id=0-1&t=Ls1o2MSydT2XKGRn-1'
+    figmaLink: 'https://www.figma.com/proto/xqZAO333o6aEWLtieT8rlH/Ride-Sharing-App?node-id=109-2&p=f&t=mBNpJkhoMT6wP3NI-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=109%3A2-1'
   },
   {
     id: '2',

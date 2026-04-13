@@ -1,10 +1,11 @@
 # AmmarPortfolio
+
 prortfolio
 
 <!-- for project runing -->
  <!-- run command  -->
- npm run dev
 
+npm run dev
 
 <!-- commands for github code pushing -->
 
@@ -15,6 +16,5 @@ git config --global user.name
 git config --global user.email
 git pull
 
- 
 git config --global user.name "your name"
 git config --global user.email "your eamil"
